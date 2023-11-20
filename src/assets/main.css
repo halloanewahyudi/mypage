@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  html,body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    @apply break-words
+  }
+  h4{
+    @apply text-2xl
+  }
+}
+
+.heading{
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  @apply text-5xl lg:text-[60px]; 
+}
