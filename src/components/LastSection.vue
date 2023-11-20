@@ -30,9 +30,9 @@ import { ref } from 'vue';
                             <span> <whatsapp></whatsapp> </span>
                             <span> 0896 3619 2223</span>
                            </a>
-                           <a href="mailto:hallo.anewwahyudi@gmail.com" class="flex gap-2 items-center text-white">
+                           <a href="mailto:saya@wahyudi.xyz" class="flex gap-2 items-center text-white">
                             <span><Mail/> </span>
-                            <span> hallo.anewahyudi@gmail.com</span>
+                            <span>saya@wahyudi.xyz</span>
                            </a>
                         </p>
                     </div>
