@@ -27,7 +27,7 @@ onMounted(() => {
     <div class="container">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div class="flex flex-col gap-5">
-                <h4 class="font-semibold">Salam, {{ state.nama }}</h4>
+                <h4 class="font-semibold">Salam, <span v-if="state.nama">{{ state.nama }}</span> <span v-else> {{ kepada }}</span> </h4>
                 <p>
                     Saya Wahyudi, seorang ahli pembuatan website dengan pengalaman lebih dari 7 tahun dalam industri ini.
                 </p>
